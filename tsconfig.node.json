@@ -8,5 +8,5 @@
     "moduleResolution": "bundler",
     "noEmit": false
   },
-  "include": ["vite.config.mts"]
+  "include": ["vite.config.ts", "vitest.config.ts"]
 }
