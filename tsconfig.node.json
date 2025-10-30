@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node Config",
+  "extends": "./internal/ts-config/node.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "moduleResolution": "bundler",
+    "noEmit": false
+  },
+  "include": ["vite.config.mts"]
+}

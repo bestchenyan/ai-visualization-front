@@ -1,0 +1,4 @@
+# Format and submit code according to lint-staged.config.mjs configuration
+pnpm exec lint-staged
+
+echo Run pre-commit hook done.

@@ -1,0 +1,80 @@
+@charset 'UTF-8';
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#app {
+  position: relative;
+  overflow: auto;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+details,
+summary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  :focus {
+    outline: none;
+  }
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+p,
+dl,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* --------------------------------------------
+                * 初始化滚动条样式 *
+---------------------------------------------*/
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(158, 158, 158, 0.4);
+
+  &:hover {
+    background: rgba(158, 158, 158, 0.6);
+  }
+}
