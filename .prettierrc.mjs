@@ -1,4 +1,4 @@
-export default{
+export default {
   endOfLine: 'auto',
   overrides: [
     {
@@ -14,4 +14,4 @@ export default{
   semi: true,
   singleQuote: true,
   trailingComma: 'all',
-}
+};

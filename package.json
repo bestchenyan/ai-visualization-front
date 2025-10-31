@@ -62,7 +62,6 @@
     "vite": "^7.1.7",
     "vite-plugin-glsl": "^1.5.4",
     "vite-plugin-inspect": "^11.3.3",
-    "vitest": "^4.0.5",
     "vue-eslint-parser": "^10.2.0",
     "vue-tsc": "^3.1.0"
   }

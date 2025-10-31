@@ -12,6 +12,7 @@ export {};
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ElConfigProvider: typeof import('element-plus/es')['ElConfigProvider']
     IEpAddLocation: typeof import('~icons/ep/add-location')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -20,6 +21,7 @@ declare module 'vue' {
 
 // For TSX support
 declare global {
+  const ElConfigProvider: (typeof import('element-plus/es'))['ElConfigProvider'];
   const IEpAddLocation: (typeof import('~icons/ep/add-location'))['default'];
   const RouterLink: (typeof import('vue-router'))['RouterLink'];
   const RouterView: (typeof import('vue-router'))['RouterView'];
